@@ -5,13 +5,13 @@ A function that returns React elements. (UI)
 
 2. What's wrong with this code?
 ```
-function MyComponent() {
+function myComponent() {
     return (
         <small>I'm tiny text!</small>
     )
 }
 ```
-
+First letter of function should be capital
 3. What's wrong with this code?
 ```
 function Header() {
@@ -24,5 +24,6 @@ function Header() {
     )
 }
 
-ReactDOM.render(<Header />, document.getElementById("root"))
+ReactDOM.render(Header, document.getElementById("root"))
 ```
+In render component should be writen <header />
