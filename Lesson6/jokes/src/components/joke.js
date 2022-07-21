@@ -1,10 +1,12 @@
 import React from "react"
 
-export default function(props){return(
+export default function Joke(props){
+  console.log(props.isPun)
+  return(
   <div>
-    <div>
-    {props.Setup && <h1>Setup: {props.setup}</h1>}
-    <h2>{props.Punchline}</h2>
-    </div>
+    
+    {props.Setup && <h1>Setup: {props.Setup}</h1>}
+    <h2>Punchline:{props.Punchline}</h2>
+  
     </div>
 )}
